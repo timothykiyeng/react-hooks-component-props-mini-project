@@ -1,15 +1,14 @@
-import React from "react";
 import blogData from "../data/blog";
 
-function About (){
-    return(
-        <div>
-            <aside>
-                <img src={blogData.image} alt="blog logo"/>
-                <p>{blogData.about}</p>
-            </aside>
-        </div>
-    )
-}
+// const image = "https://via.placeholder.com/215";
+function About(){
+	return (
+	<aside>
 
-export default About 
+		<img src ={blogData.image} alt="blog logo"></img>
+		<p>{blogData.about}</p>
+
+	</aside>
+	)
+}
+export default About;
