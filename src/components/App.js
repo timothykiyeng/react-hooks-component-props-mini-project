@@ -11,9 +11,9 @@ function App() {
   
   return (
     <div className="App">
-      <Header />
-      <About />
-      <ArticleList />
+      <Header name={blogData.name} />
+      <About image= {blogData.image} about= {blogData.about}  />
+      <ArticleList post={blogData.posts} />
 
   
     </div>

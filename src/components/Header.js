@@ -1,12 +1,12 @@
 import React from "react";
-import blogData from "../data/blog";
 
 
-function Header(){
+
+function Header({name}){
     return (
-        <div>
-         <h1>{blogData.name}</h1>
-        </div>    
+        <header>
+         <h1>{name}</h1>
+        </header>    
     )
 }
 
